@@ -2,7 +2,7 @@
 import { Taptree } from '../types';
 import { PsbtInput, PsbtOutput, TapLeaf } from 'bip174/src/lib/interfaces';
 export declare const toXOnly: (pubKey: Buffer) => Buffer;
-/**
+/*
  * Default tapscript finalizer. It searches for the `tapLeafHashToFinalize` if provided.
  * Otherwise it will search for the tapleaf that has at least one signature and has the shortest path.
  * @param inputIndex the position of the PSBT input.
